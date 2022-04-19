@@ -17,6 +17,9 @@ start = int(input())
 graph = [[] for i in range(n+1)]
 #방문한 적이 있는지 체크하는 목적의 리스트를 만들기
 visited = [False] * (n+1)
+#이게 내가 구할것
+#start 지점에서 각 지점으로 가는 최단거리테이블
+#경로는 안나옴
 #최단 거리 테이블을 모두 무한으로 초기화
 distance = [INF] * (n+1)
 
